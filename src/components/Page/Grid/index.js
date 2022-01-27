@@ -1,12 +1,16 @@
 import Column from './Column';
+import Card from '../../Card';
+
 function Grid() {
   return (
     <div className="grid">
       <Column>
-        <p>Cards go here</p>
+        <Card />
+        <Card />
       </Column>
       <Column>
-        <p>Cards go here</p>
+        <Card />
+        <Card />
       </Column>
     </div>
   );
