@@ -3,6 +3,17 @@
   flex-direction: row;
   justify-content: start;
   align-items: center;
+  gap: 5px;
   border: black solid 1px;
   border-radius: var(--border-radius);
+}
+
+.header--img img {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.header--info h1 {
+  font-size: 1.5rem;
 }

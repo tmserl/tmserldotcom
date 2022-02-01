@@ -1,10 +1,13 @@
 import './Header.css';
 
 function Header() {
+  const img =
+    'https://pbs.twimg.com/profile_images/1475548897703514119/9b6Pg_pL_400x400.jpg';
+
   return (
     <div className="header">
       <div className="header--img">
-        <img src="" alt="Tom Earl" />
+        <img src={img} alt="Tom Earl" />
       </div>
       <div className="header--info">
         <h1>👋 Hey, I'm Tom!</h1>
