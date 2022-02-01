@@ -1,10 +1,11 @@
+import './Page.css';
 import Header from './Header';
 import Grid from './Grid';
 import Footer from './Footer';
 
 function Page() {
   return (
-    <div className="page">
+    <div className="page container">
       <Header />
       <Grid />
       <Footer />
