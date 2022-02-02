@@ -1,0 +1,4 @@
+.column {
+  /* flex-grow: 1; */
+  flex: 0 0 49%;
+}
