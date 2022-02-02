@@ -1,11 +1,4 @@
 .grid {
   display: flex;
   justify-content: space-between;
-  /* gap: 1.5rem; */
-}
-
-.card {
-  border: black 1px solid;
-  padding: 1rem;
-  border-radius: var(--border-radius);
 }
