@@ -1,0 +1,10 @@
+.twitter--card {
+  background-color: var(--twitter);
+  color: var(--tc2);
+  text-align: center;
+}
+
+.twitter--card svg {
+  fill: var(--white);
+  margin: 0 auto 1rem auto;
+}
