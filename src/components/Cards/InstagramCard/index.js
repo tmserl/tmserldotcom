@@ -7,7 +7,7 @@ function InstagramCard() {
       <InstagramLogo />
       <p>
         Mostly lurking on here, but occassionaly I post a photo when I remember
-        it exists.
+        it exists. Strictly no selfies allowed.
       </p>
     </div>
   );
