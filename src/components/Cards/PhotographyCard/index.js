@@ -2,7 +2,7 @@ import './Photography.css';
 import { useState } from 'react';
 
 function PhotographyCard() {
-  const [color, setColor] = useState('000000');
+  const [color, setColor] = useState('1d2d35;');
 
   function onHover() {
     setColor(Math.floor(Math.random() * 16777215).toString(16));
