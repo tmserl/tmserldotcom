@@ -12,11 +12,11 @@ function Grid() {
     <div className="grid">
       <Column>
         <TwitterCard />
-        <BlogCard />
+        {/* <BlogCard /> */}
         <InstagramCard />
       </Column>
       <Column>
-        <MapCard />
+        {/* <MapCard /> */}
         <PhotographyCard />
         <GitHubCard />
       </Column>
