@@ -21,11 +21,13 @@ function PhotographyCard() {
       className="card photography--card"
       onMouseEnter={onHover}
     >
-      <h2 style={{ color: `#${color[0]}` }}>TomEarl.XYZ</h2>
-      <p style={{ color: `#${color[0]}` }}>
-        Occassionaly, I take photos. Some of the better ones normally end up
-        here. Lately, I'm really enjoying the Fujifilm X100V! 📷
-      </p>
+      <a href="https://tomearl.xyz" target="_blank">
+        <h2 style={{ color: `#${color[0]}` }}>TomEarl.XYZ</h2>
+        <p style={{ color: `#${color[0]}` }}>
+          Occassionaly, I take photos. Some of the better ones normally end up
+          here. Lately, I'm really enjoying the Fujifilm X100V! 📷
+        </p>
+      </a>
     </div>
   );
 }

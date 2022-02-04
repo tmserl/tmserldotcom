@@ -5,6 +5,7 @@
 
 .twitter--card a {
   color: var(--white);
+  text-decoration: none;
 }
 
 .twitter--card svg {
