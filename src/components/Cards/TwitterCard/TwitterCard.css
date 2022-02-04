@@ -3,6 +3,10 @@
   color: var(--tc2);
 }
 
+.twitter--card a {
+  color: var(--white);
+}
+
 .twitter--card svg {
   fill: var(--white);
   margin: 1rem auto 1.5rem auto;
