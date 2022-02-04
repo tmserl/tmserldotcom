@@ -3,6 +3,12 @@
   margin-bottom: 1rem;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
+  transition: transform 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.045);
+  cursor: pointer;
 }
 
 p {
