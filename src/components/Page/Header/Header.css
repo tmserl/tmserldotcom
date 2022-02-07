@@ -6,7 +6,8 @@
   gap: 1.5rem;
   padding: 1rem;
   margin: 22px 0;
-  background-color: var(--white);
+  color: var(--tc1);
+  background-color: var(--header-background);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
 }

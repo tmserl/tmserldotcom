@@ -1,6 +1,6 @@
 .github--card {
-  color: var(--white);
-  background-color: var(--github);
+  color: var(--tc2);
+  background-color: var(--github-background);
 }
 
 .github--card a {
@@ -9,7 +9,7 @@
 }
 
 .github--card svg {
-  fill: var(--white);
+  fill: var(--github-logo);
   margin: 1rem auto 1.5rem auto;
   width: 60px;
   height: auto;

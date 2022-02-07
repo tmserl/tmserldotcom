@@ -1,9 +1,9 @@
 .instagram--card {
-  color: var(--white);
+  color: var(--tc2);
   background: #f09433;
-  background: -moz-linear-gradient(var(--instagram));
-  background: -webkit-linear-gradient(var(--instagram));
-  background: linear-gradient(var(--instagram));
+  background: -moz-linear-gradient(var(--instagram-background));
+  background: -webkit-linear-gradient(var(--instagram-background));
+  background: linear-gradient(var(--instagram-background));
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
@@ -13,7 +13,8 @@
 }
 
 .instagram--card svg {
-  fill: var(--white);
+  fill: var(--instagram-logo);
+
   margin: 0.75rem auto 1.5rem auto;
   width: 60px;
   height: auto;

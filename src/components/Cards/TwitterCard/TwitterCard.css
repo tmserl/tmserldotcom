@@ -1,15 +1,15 @@
 .twitter--card {
-  background-color: var(--twitter);
+  background-color: var(--twitter-background);
   color: var(--tc2);
 }
 
 .twitter--card a {
-  color: var(--white);
+  color: var(--tc2);
   text-decoration: none;
 }
 
 .twitter--card svg {
-  fill: var(--white);
+  fill: var(--twitter-logo);
   margin: 1rem auto 1.5rem auto;
   width: 60px;
   height: auto;
