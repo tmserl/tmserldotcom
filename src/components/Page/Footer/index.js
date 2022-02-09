@@ -15,7 +15,7 @@ function Footer() {
 
   return (
     <div className="footer">
-      <p>It's currently {year}, in case you were wondering</p>
+      <p>Made with ♥️ in Birmingham, {year}</p>
     </div>
   );
 }

@@ -4,7 +4,11 @@ import { ReactComponent as InstagramLogo } from './instagram-logo.svg';
 function InstagramCard() {
   return (
     <div className="card instagram--card">
-      <a href="https://www.instagram.com/tomearlxyz/" target="_blank">
+      <a
+        href="https://www.instagram.com/tomearlxyz/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <InstagramLogo />
         <p>
           Mostly lurking on here, but occassionaly I post a photo when I

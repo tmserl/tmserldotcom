@@ -4,7 +4,7 @@ import { ReactComponent as GitHubLogo } from './github-logo.svg';
 function GitHubCard() {
   return (
     <div className="card github--card">
-      <a href="https://github.com/tmserl" target="_blank">
+      <a href="https://github.com/tmserl" target="_blank" rel="noreferrer">
         <GitHubLogo />
         <p>
           This is where all of my code lives (it's lovely and homely). Nearly
