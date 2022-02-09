@@ -1,6 +1,8 @@
 :root {
   --border-radius: 15px;
   --font-family: 'Whitney';
+  --md-breakpoint: 768px;
+  --sm-breakpoint: max-width: 640px;
   --tc1: #000000;
   --tc2: #ffffff;
   --bg1: #f7f2f2;
