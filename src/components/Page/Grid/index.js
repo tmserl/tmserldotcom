@@ -6,6 +6,7 @@ import './Grid.css';
 // import BlogCard from '../../Cards/BlogCard';
 import PhotographyCard from '../../Cards/PhotographyCard';
 import GitHubCard from '../../Cards/GitHubCard';
+import MetaCard from '../../Cards/MetaCard';
 
 function Grid() {
   return (
@@ -14,6 +15,7 @@ function Grid() {
         <TwitterCard />
         {/* <BlogCard /> */}
         <InstagramCard />
+        <MetaCard />
       </Column>
       <Column>
         {/* <MapCard /> */}
