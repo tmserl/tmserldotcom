@@ -14,6 +14,7 @@
 }
 
 .makemeta--card input {
+  width: 60%;
   margin: 1rem 0 1rem 0;
   border-radius: 8px;
   padding: 0.25rem 0.75rem 0.25rem 0.75rem;
@@ -62,4 +63,10 @@
 .makemeta--card__green p {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.65rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .makemeta--card input {
+    width: 75%;
+  }
 }
