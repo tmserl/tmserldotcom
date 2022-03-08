@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8c11657d-bbf2-43bf-b7bf-ccdf630cf8c6/deploy-status)](https://app.netlify.com/sites/tmserlcom/deploys)
 
+[See it in action](https://tmserl.com)
+
 ## How it started
 
 The year is 2022, I've accumulated almost as many social media accounts and websites as I've had hot dinners. If _I'm_ struggling to keep tabs of all of them, then how could I expect anyone else to?
