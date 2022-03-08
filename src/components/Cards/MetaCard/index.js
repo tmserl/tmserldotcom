@@ -23,11 +23,11 @@ function MetaCard() {
         {input && (
           <div className="makemeta--card__green">
             <p>
-              &lt;meta name="twitter:title" content="{input}" /&gt;
+              {`<meta name="twitter:title" content="${input}" />`}
               <br />
-              &lt;meta property="og:title" content={input}" /&gt;
+              {`<meta property="og:title" content=${input}" />`}
               <br />
-              &lt;meta property="og:site_name" content="{input}" /&gt;
+              {`<meta property="og:site_name" content="${input}" />`}
             </p>
           </div>
         )}
