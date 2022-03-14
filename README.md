@@ -18,6 +18,12 @@ Not being satisfied with the options available online, I decided to build my own
 
 ## Screenshots
 
+### Early Sketch of tmserl.com
+
+![tmserl.com Sketch](/README/tmserldotcom_sketch.jpg)
+
+### Deployed version
+
 ![tmserl.com Site](/README/tmserldotcom1.png)
 
 ![tmserl.com Cards](/README/tmserldotcom2.gif)
