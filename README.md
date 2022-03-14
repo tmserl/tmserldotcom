@@ -16,13 +16,13 @@ One of the downsides to Linktree is that your page ends up looking like everyone
 
 Not being satisfied with the options available online, I decided to build my own 'Linktree' style website. Built using React, the site uses custom CSS styling and modern React Hooks to signpost users to different sites and social platforms. The site is deployed on Netlify and takes advantage of their GitHub CI/CD integration, and, because of it being self-hosted, I get to pick my own domain name, rather than being limited to ones beginning with _linktr.ee_.
 
-## Screenshots
+## Images
 
-### Early Sketch of tmserl.com
+### An early sketch of tmserl.com
 
 ![tmserl.com Sketch](/README/tmserldotcom_sketch.jpg)
 
-### Deployed version
+### Screenshots of the deployed version
 
 ![tmserl.com Site](/README/tmserldotcom1.png)
 
