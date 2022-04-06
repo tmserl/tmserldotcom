@@ -9,7 +9,7 @@ function TwitterCard() {
         <TwitterLogo />
         <p>
           I'm slowly getting back into Twitter. At the moment, I'm mostly
-          tracking my coding progress on 100DaysOfCode.
+          tracking my coding progress on #100DaysOfCode.
         </p>
       </a>
     </div>

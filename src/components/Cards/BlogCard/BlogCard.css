@@ -1,3 +1,8 @@
+.blog--card {
+  background-color: #0c4e7a;
+  color: #ffffff;
+}
+
 .blog--card h2 {
   margin: 1rem 0 0.75rem 0;
   font-family: 'realist';
