@@ -1,3 +1,4 @@
+import React from 'react';
 import './Column.css';
 
 function Column({ children }) {

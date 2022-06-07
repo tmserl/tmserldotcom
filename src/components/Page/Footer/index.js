@@ -1,3 +1,4 @@
+import React from 'react';
 import './Footer.css';
 import { useState, useEffect } from 'react';
 
@@ -15,7 +16,13 @@ function Footer() {
 
   return (
     <div className="footer">
-      <p>Made with ♥️ in Birmingham, {year}</p>
+      <p>
+        Made with{' '}
+        <span role="img" aria-label="heart">
+          ♥️
+        </span>{' '}
+        in Birmingham, {year}
+      </p>
     </div>
   );
 }

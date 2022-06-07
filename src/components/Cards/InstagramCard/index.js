@@ -1,3 +1,4 @@
+import React from 'react';
 import './InstagramCard.css';
 import { ReactComponent as InstagramLogo } from './instagram-logo.svg';
 
@@ -7,7 +8,7 @@ function InstagramCard() {
       <a
         href="https://www.instagram.com/tomearlxyz/"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
       >
         <InstagramLogo />
         <p>

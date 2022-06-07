@@ -1,3 +1,4 @@
+import React from 'react';
 import './MetaCard.css';
 import { useState } from 'react';
 
@@ -6,7 +7,7 @@ function MetaCard() {
 
   return (
     <div className="card makemeta--card">
-      <a href="https://makemeta.app" target="_blank" rel="noreferrer">
+      <a href="https://makemeta.app" target="_blank" rel="noopener noreferrer">
         <h2>MakeMeta</h2>
         <h3>Generate Meta Tags for your website</h3>
       </a>
@@ -16,10 +17,10 @@ function MetaCard() {
           placeholder="MakeMeta"
           type="text"
           value={input}
-          onChange={(e) => setInput(e.target.value)}
+          onChange={e => setInput(e.target.value)}
         ></input>
       </div>
-      <a href="https://makemeta.app" target="_blank" rel="noreferrer">
+      <a href="https://makemeta.app" target="_blank" rel="noopener noreferrer">
         {input && (
           <div className="makemeta--card__green">
             <p>

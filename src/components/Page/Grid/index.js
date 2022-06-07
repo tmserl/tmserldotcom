@@ -1,5 +1,5 @@
+import React from 'react';
 import Column from './Column';
-// import MapCard from '../../Cards/MapCard';
 import TwitterCard from '../../Cards/TwitterCard';
 import InstagramCard from '../../Cards/InstagramCard';
 import './Grid.css';
@@ -17,7 +17,6 @@ function Grid() {
         <MetaCard />
       </Column>
       <Column>
-        {/* <MapCard /> */}
         <PhotographyCard />
         <BlogCard />
         <GitHubCard />

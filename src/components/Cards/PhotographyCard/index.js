@@ -1,3 +1,4 @@
+import React from 'react';
 import './PhotographyCard.css';
 import { useState } from 'react';
 
@@ -11,7 +12,7 @@ function PhotographyCard() {
       'fcfcfc',
       ...color.slice(1, 1),
       randomColor,
-      ...color.slice(2),
+      ...color.slice(2)
     ]);
   }
 
@@ -21,11 +22,14 @@ function PhotographyCard() {
       className="card photography--card"
       onMouseEnter={onHover}
     >
-      <a href="https://tomearl.xyz" target="_blank" rel="noreferrer">
+      <a href="https://tomearl.xyz" target="_blank" rel="noopener noreferrer">
         <h2 style={{ color: `#${color[0]}` }}>TomEarl.XYZ</h2>
         <p style={{ color: `#${color[0]}` }}>
           Occasionally, I take photos. Some of the better ones normally end up
-          here. Lately, I'm really enjoying the Fujifilm X100V! 📷
+          here. Lately, I'm really enjoying the Fujifilm X100V!{' '}
+          <span role="img" aria-label="camera">
+            📷
+          </span>
         </p>
       </a>
     </div>
