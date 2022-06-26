@@ -12,7 +12,7 @@ function MetaCard() {
         <h3>Generate Meta Tags for your website</h3>
       </a>
       <div className="makemeta--card__blue">
-        <p>Try it out!</p>
+        <p>Try me!</p>
         <input
           placeholder="MakeMeta"
           type="text"
