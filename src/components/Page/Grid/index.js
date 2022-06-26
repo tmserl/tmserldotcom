@@ -7,6 +7,7 @@ import BlogCard from '../../Cards/BlogCard';
 import PhotographyCard from '../../Cards/PhotographyCard';
 import GitHubCard from '../../Cards/GitHubCard';
 import MetaCard from '../../Cards/MetaCard';
+import ContactCard from '../../Cards/ContactCard';
 
 function Grid() {
   return (
@@ -20,6 +21,7 @@ function Grid() {
         <PhotographyCard />
         <BlogCard />
         <GitHubCard />
+        <ContactCard />
       </Column>
     </div>
   );
